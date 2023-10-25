@@ -6,6 +6,8 @@
 Se as coordenadas x e y chutadas por um jogador forem iguais às coordenadas secretas, o jogador em questão terá marcado um ponto, que será registrado no placar automaticamente. 
 Vence o jogador que atingir mais pontos no intervalo de tempo determinado pelo cronômetro, ou que atingir 15 pontos primeiro.
 
+![main](images/main.png)
+
 ## Comparador
   Este circuito recebe 8 entradas, 4 representam um valor chutado por um dos jogadores e 4 representam um número secreto. Para cada uma das saidas temos uma configuração:
     a) Igualdade: quatro portas XNOR com duas entradas, cada uma recebendo um dos bits do valor chutado pelo jogador e um dos bits do número secreto, sendo esses bits de igual significância. Dessa forma, caso sejam iguais, a saida será verdadeira. Após isso há uma AND para as quatro portas XNOR.
