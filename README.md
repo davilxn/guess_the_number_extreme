@@ -1,5 +1,6 @@
 # guess_the_number_extreme
   Este trabalho foi realizado como projeto da etapa final da disciplina de Circuitos Digitais, focada em circuitos sequenciais, ministrada pelo Prof. Dr. Ramon Santos Nepomuceno (ramon.nepomuceno@ufca.edu.br).
+  Trabalho desenvolvido pelos estudantes: Davi Santos Alexandrino e Leonardo Pereira Silva.
 ## Introdução
   O projeto consiste em um jogo, onde dois jogadores devem chutar valores para duas coordenadas x e y que podem variar de -8 a 7, coordenadas essas selecionadas previa e aleatoriamente dentro do circuito. Os jogadores jogam sob a temporização de um cronômetro, que funciona semelhantemente aos relógios de partidas de xadrez, e pode ser ajustado para qualquer intrevalo de tempo inferior a 1 hora, com a diferença de que, caso o tempo de um jogador acabe, o outro ainda pode continuar jogando. A cada chute de um jogador, lhe é informado, como métrica de direcionamento, se a soma das coordenadas x e y chutadas pelo jogador é maior, menor ou igual à soma das coordenadas x e y secretas. 
 Se as coordenadas x e y chutadas por um jogador forem iguais às coordenadas secretas, o jogador em questão terá marcado um ponto, que será registrado no placar automaticamente. 
